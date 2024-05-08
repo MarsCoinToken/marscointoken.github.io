@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build & export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo clean"
   },
