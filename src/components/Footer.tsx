@@ -1,4 +1,3 @@
-'use client'
 import {Radar, Send } from "lucide-react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { TwitterLogoIcon } from "@radix-ui/react-icons"
