@@ -62,7 +62,7 @@ export default function Home() {
             <img src="/spacextext.png" className="absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block" alt="" />
             <img src="/line.png" alt=""
               className="absolute w-20 -left-6 -bottom-6 select-none" />
-            <Phone className="w-64" imgSrc="spacex.jpg" />
+            <Phone className="w-67" imgSrc="spacex.jpg" />
           </div>
         </div>
       </MaxWidthWrapper>

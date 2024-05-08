@@ -12,7 +12,7 @@ const Phone = ({imgSrc, className, dark=false,}: PhoneProps) => {
          <img src="/iphone.png" alt="" 
          className="pointer-events-none z-50 select-none" />
 
-         <div className="absolute -z-10 inset-x-4 inset-y-3.5">
+         <div className="absolute -z-10 inset-5">
             <img className="object-cover" src={imgSrc} alt="" />
          </div>
         </div>
