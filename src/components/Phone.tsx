@@ -8,13 +8,13 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
 
 const Phone = ({imgSrc, className, dark=false,}: PhoneProps) => {
     return(
-        <div className={cn("relative pointer-events-none z-50 overflow-hidden", className)}>
-         <img src="/iphone.png" alt="" 
-         className="pointer-events-none z-50 select-none" />
+        <div className={cn("relative pointer-events-none z-20 overflow-hidden", className)}>
+         <img src={imgSrc} alt="" 
+         className="pointer-events-none z-20 select-none" />
 
-         <div className="absolute -z-10 inset-5">
+         {/* <div className="absolute -z-10 inset-5">
             <img className="object-cover" src={imgSrc} alt="" />
-         </div>
+         </div> */}
         </div>
     )
 }

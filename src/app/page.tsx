@@ -18,7 +18,7 @@ export default function Home() {
          </div>
          <div className="mt-12 flex-row items-start sm:items-center">
             <div className="flex space-x-4">
-              <code>ca: BiStEkoYoAfPJCKe33Hkossq3oXM52tS9m1BuP9g6H8c </code>
+              <img src="ca.png" alt="" />
             </div>
           </div>
             <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">Mars Coin, Universal <span className="bg-orange-600 px-2 text-white"> Currency</span> for Mars</h1>
@@ -58,11 +58,9 @@ export default function Home() {
           
         </div>
         <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 ,t-32 lh:mx-0 lg:mt-20 h-auto">
-          <div className="relative md:max-w-xl">
-            <img src="/spacextext.png" className="absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block" alt="" />
-            <img src="/line.png" alt=""
-              className="absolute w-20 -left-6 -bottom-6 select-none" />
-            <Phone className="w-67" imgSrc="spacex.jpg" />
+          <div className="relative md:max-w-md">
+            <img src="/three.png" className="absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:hidden lg:hidden xl:block" alt="" />
+            <Phone className="w-67 top-20" imgSrc="twitter.jpg" />
           </div>
         </div>
       </MaxWidthWrapper>
@@ -78,7 +76,7 @@ export default function Home() {
             birth <Icons.Underline className="hidden sm:block pointer-events-none absolute inset-x-0 -bottom-6 text-orange-600" /></span>
             {' '}of Mars Coin
           </h2>
-          <img src="/mars.png" className="w-24 order-0 lg:order-2" alt="" />
+          <img src="/mars_run.png" className="w-24 order-0 lg:order-2" alt="" />
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
           <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
